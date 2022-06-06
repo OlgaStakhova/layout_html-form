@@ -1,19 +1,19 @@
 /* styles go here */
 
-.inputLable {
+.input-lable {
   display: block;
 }
 
-.inputLable:not(:last-child) {
+.input-lable:not(:last-child) {
   margin-bottom: 10px;
 
 }
 
-fieldset:not(:last-child) {
+.form-section:not(:last-child) {
   margin-bottom: 20px;
 }
 
-p {
+.input-description {
   margin: 0;
   display: inline;
 }

@@ -11,124 +11,139 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-          method="post">
-      <fieldset>
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="post">
+      <fieldset class="form-section">
         <legend>Personal information</legend>
-        <div class="inputLable">
+        <div class="input-lable">
           <label for="surnameUser">Surname:</label>
-          <input type="text"
-                id="surnameUser"
-                name="surname"
-                autocomplete="off"
-                required>
+          <input
+            type="text"
+            id="surnameUser"
+            name="surname"
+            autocomplete="off"
+            required>
         </div>
-        <div class="inputLable">
+        <div class="input-lable">
           <label for="nameUser">Name:</label>
-          <input type="text"
-                id="nameUser"
-                name="name"
-                autocomplete="off">
+          <input
+            type="text"
+            id="nameUser"
+            name="name"
+            autocomplete="off">
         </div>
-        <div class="inputLable">
+        <div class="input-lable">
           <label for="ageUser">How old are You?</label>
-          <input type="number"
-                min="1"
-                max="100"
-                value="12"
-                id="ageUser"
-                name="age">
+          <input
+            type="number"
+            min="1"
+            max="100"
+            value="12"
+            id="ageUser"
+            name="age">
         </div>
-        <div class="inputLable">
+        <div class="input-lable">
           <label for="birthDayUser">Full date of birth:</label>
-          <input type="date"
-                id="birthDayUser"
-                name="birthDay">
+          <input
+            type="date"
+            id="birthDayUser"
+            name="birthDay">
         </div>
-        <div class="inputLable">
+        <div class="input-lable">
           <label for="acceptUser">I accept the term of the agreement  </label>
-          <input type="checkbox"
-                id="acceptUser"
-                value="I accept">
+          <input
+            type="checkbox"
+            id="acceptUser"
+            value="I accept">
         </div>
       </fieldset>
-      <fieldset>
+      <fieldset class="form-section">
         <legend>Registration</legend>
-        <div class="inputLable">
+        <div class="input-lable">
           <label for="emailUser">E-mail:  </label>
-          <input type="email"
-                id="emailUser"
-                name="email"
-                placeholder="email@example.com">
+          <input
+            type="email"
+            id="emailUser"
+            name="email"
+            placeholder="email@example.com">
         </div>
-        <div class="inputLable">
+        <div class="input-lable">
           <label for="passwordlUser">Password:  </label>
-          <input type="password"
-                id="passwordlUser"
-                name="password"
-                minlength="3"
-                maxlength="32">
+          <input
+            type="password"
+            id="passwordlUser"
+            name="password"
+            minlength="3"
+            maxlength="32">
         </div>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="form-section">
         <legend>An interesting fact about you!</legend>
-        <div class="inputLable">
-          <p>Do you love cats?  </p>
+        <div class="input-lable">
+          <p class="input-description">Do you love cats? </p>
 
-          <input type="radio"
-                id="yesCat"
-                name="likeCats">
+          <input
+            type="radio"
+            id="yesCat"
+            name="likeCats">
           <label for="yesCat">Yes</label>
 
-          <input type="radio"
-                id="noCat"
-                name="likeCats">
+          <input
+            type="radio"
+            id="noCat"
+            name="likeCats">
           <label for="noCat">No</label>
         </div>
-        <div class="inputLable">
+        <div class="input-lable">
           <label for="colorUser">What is your favorite color?  </label>
-          <input type="color"
-                id="colorUser"
-                name="color">
+          <input
+            type="color"
+            id="colorUser"
+            name="color">
         </div>
-        <div class="inputLable">
+        <div class="input-lable">
           <label for="timeUser">What time do you go to bed?  </label>
-          <input type="time"
-                id="timeUser"
-                name="time">
+          <input
+            type="time"
+            id="timeUser"
+            name="time">
         </div>
-        <div class="inputLable">
+        <div class="input-lable">
           <label for="carUser">What are your favorite brand of cars?  </label>
-          <select id="carUser"
-                  name="carBrand"
-                  multiple>
+          <select
+            id="carUser"
+            name="carBrand"
+            multiple>
             <option value="bmw">BMW</option>
             <option value="lada">Lada</option>
             <option value="audi">Audi</option>
             <option value="default"></option>
           </select>
         </div>
-        <div class="inputLable">
+        <div class="input-lable">
           <label for="rateWorkUser">How do you rate our work?  </label>
-          <input type="range"
-                id="rateWorkUser"
-                name="rateWork">
+          <input
+            type="range"
+            id="rateWorkUser"
+            name="rateWork">
         </div>
       </fieldset>
-      <fieldset>
+      <fieldset class="form-section">
         <legend>Additional info:  </legend>
-        <div class="inputLable">
+        <div class="input-lable">
           <label for="commentkUser">Comments  </label>
           <textarea
-                id="commentUser"
-                name="comments">
+            id="commentUser"
+            name="comments">
           </textarea>
         </div>
-        <div class="inputLable">
+        <div class="input-lable">
           <label for="recommendUser">Would you recommendet us?  </label>
-          <select id="recommendUser"
-                  name="recommend">
+          <select
+            id="recommendUser"
+            name="recommend">
             <option value="yes" default>Yes</option>
             <option value="no">No</option>
           </select>
