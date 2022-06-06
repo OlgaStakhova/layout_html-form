@@ -13,7 +13,8 @@
   <body>
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-      method="post">
+      method="post"
+    >
       <fieldset class="form-section">
         <legend>Personal information</legend>
         <div class="input-lable">
@@ -23,7 +24,8 @@
             id="surnameUser"
             name="surname"
             autocomplete="off"
-            required>
+            required
+          >
         </div>
         <div class="input-lable">
           <label for="nameUser">Name:</label>
@@ -31,7 +33,8 @@
             type="text"
             id="nameUser"
             name="name"
-            autocomplete="off">
+            autocomplete="off"
+          >
         </div>
         <div class="input-lable">
           <label for="ageUser">How old are You?</label>
@@ -41,21 +44,24 @@
             max="100"
             value="12"
             id="ageUser"
-            name="age">
+            name="age"
+          >
         </div>
         <div class="input-lable">
           <label for="birthDayUser">Full date of birth:</label>
           <input
             type="date"
             id="birthDayUser"
-            name="birthDay">
+            name="birthDay"
+          >
         </div>
         <div class="input-lable">
           <label for="acceptUser">I accept the term of the agreement  </label>
           <input
             type="checkbox"
             id="acceptUser"
-            value="I accept">
+            value="I accept"
+          >
         </div>
       </fieldset>
       <fieldset class="form-section">
@@ -66,7 +72,8 @@
             type="email"
             id="emailUser"
             name="email"
-            placeholder="email@example.com">
+            placeholder="email@example.com"
+          >
         </div>
         <div class="input-lable">
           <label for="passwordlUser">Password:  </label>
@@ -75,7 +82,8 @@
             id="passwordlUser"
             name="password"
             minlength="3"
-            maxlength="32">
+            maxlength="32"
+          >
         </div>
       </fieldset>
 
@@ -83,17 +91,17 @@
         <legend>An interesting fact about you!</legend>
         <div class="input-lable">
           <p class="input-description">Do you love cats? </p>
-
           <input
             type="radio"
             id="yesCat"
-            name="likeCats">
+            name="likeCats"
+          >
           <label for="yesCat">Yes</label>
-
           <input
             type="radio"
             id="noCat"
-            name="likeCats">
+            name="likeCats"
+          >
           <label for="noCat">No</label>
         </div>
         <div class="input-lable">
@@ -101,21 +109,24 @@
           <input
             type="color"
             id="colorUser"
-            name="color">
+            name="color"
+          >
         </div>
         <div class="input-lable">
           <label for="timeUser">What time do you go to bed?  </label>
           <input
             type="time"
             id="timeUser"
-            name="time">
+            name="time"
+          >
         </div>
         <div class="input-lable">
           <label for="carUser">What are your favorite brand of cars?  </label>
           <select
             id="carUser"
             name="carBrand"
-            multiple>
+            multiple
+          >
             <option value="bmw">BMW</option>
             <option value="lada">Lada</option>
             <option value="audi">Audi</option>
@@ -127,7 +138,8 @@
           <input
             type="range"
             id="rateWorkUser"
-            name="rateWork">
+            name="rateWork"
+          >
         </div>
       </fieldset>
       <fieldset class="form-section">
@@ -136,14 +148,16 @@
           <label for="commentkUser">Comments  </label>
           <textarea
             id="commentUser"
-            name="comments">
+            name="comments"
+          >
           </textarea>
         </div>
         <div class="input-lable">
           <label for="recommendUser">Would you recommendet us?  </label>
           <select
             id="recommendUser"
-            name="recommend">
+            name="recommend"
+          >
             <option value="yes" default>Yes</option>
             <option value="no">No</option>
           </select>

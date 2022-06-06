@@ -6,7 +6,6 @@
 
 .input-lable:not(:last-child) {
   margin-bottom: 10px;
-
 }
 
 .form-section:not(:last-child) {
