@@ -1,1 +1,19 @@
 /* styles go here */
+
+.inputLable {
+  display: block;
+}
+
+.inputLable:not(:last-child) {
+  margin-bottom: 10px;
+
+}
+
+fieldset:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0;
+  display: inline;
+}
